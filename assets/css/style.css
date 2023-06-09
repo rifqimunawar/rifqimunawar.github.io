@@ -267,6 +267,8 @@ section{
 
 .home .image{
     flex:1 1 45rem;
+    justify-content: center;
+    align-items: center;
 }
 
 .home .image img {
@@ -284,7 +286,7 @@ section{
     height: 55rem;
     object-fit: cover;
     border-radius: 8%;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
+    box-shadow: 0 0 50px var(--text-color-2);
 }
 
 .home .content{
