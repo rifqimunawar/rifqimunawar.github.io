@@ -272,8 +272,8 @@ section{
 }
 
 .home .image img {
-    width: 45rem;
-    height: 45rem;
+    width: 35rem;
+    height: 35rem;
     object-fit: cover;
     border-radius: 18%;
     transition: all 0.3s ease;
@@ -282,8 +282,8 @@ section{
 
 .home .image img:hover {
     cursor: pointer;
-    width: 55rem;
-    height: 55rem;
+    width: 45rem;
+    height: 45rem;
     object-fit: cover;
     border-radius: 8%;
     box-shadow: 0 0 50px var(--text-color-2);
