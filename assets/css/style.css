@@ -115,6 +115,13 @@ section{
     color:var(--orange);
 }
 
+.header .logo img{
+    width: 35px; 
+    height: 35px; 
+    object-fit: cover; 
+    border-radius: 50%;
+}
+
 .header .search-form{
     background:var(--bg-color-2);
     border-radius: .5rem;
@@ -255,15 +262,29 @@ section{
     align-items: center;
     flex-wrap: wrap;
     gap:1.5rem;
-    padding-top: 7rem;
+    padding-top: 10rem;
 }
 
 .home .image{
     flex:1 1 45rem;
 }
 
-.home .image img{
-    width: 100%;
+.home .image img {
+    width: 45rem;
+    height: 45rem;
+    object-fit: cover;
+    border-radius: 18%;
+    transition: all 0.3s ease;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.home .image img:hover {
+    cursor: pointer;
+    width: 55rem;
+    height: 55rem;
+    object-fit: cover;
+    border-radius: 8%;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
 }
 
 .home .content{

@@ -6,21 +6,21 @@ document.querySelector('#menu-btn').onclick = () =>{
     searchForm.classList.remove('active');
 }
 
-let loginForm = document.querySelector('.login-form')
+// let loginForm = document.querySelector('.login-form')
 
-document.querySelector('#login-btn').onclick = () =>{
-    loginForm.classList.toggle('active');
-    navbar.classList.remove('active');
-    searchForm.classList.remove('active');
-}
+// document.querySelector('#login-btn').onclick = () =>{
+//     loginForm.classList.toggle('active');
+//     navbar.classList.remove('active');
+//     searchForm.classList.remove('active');
+// }
 
-let searchForm = document.querySelector('.search-form')
+// let searchForm = document.querySelector('.search-form')
 
-document.querySelector('#search-btn').onclick = () =>{
-    searchForm.classList.toggle('active');
-    navbar.classList.remove('active');
-    loginForm.classList.remove('active');
-}
+// document.querySelector('#search-btn').onclick = () =>{
+//     searchForm.classList.toggle('active');
+//     navbar.classList.remove('active');
+//     loginForm.classList.remove('active');
+// }
 
 window.onscroll = () =>{
     navbar.classList.remove('active');
