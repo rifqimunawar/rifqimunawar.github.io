@@ -668,6 +668,7 @@ section{
 
 .blogs .box-container .box .content{
     padding-top: 1rem;
+  max-width: max-content;
 }
 
 .blogs .box-container .box .content h3{
@@ -717,6 +718,7 @@ section{
     font-size: 1.5rem;
     color:var(--text-color-1);
     padding:1rem 0;
+    font-weight: lighter;
 }
 
 .footer .box-container .box a{
@@ -724,6 +726,7 @@ section{
     font-size: 1.5rem;
     color:var(--text-color-2);
     padding:1rem 0;
+    text-transform: lowercase;
 }
 
 .footer .box-container .box a i{
